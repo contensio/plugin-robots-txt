@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Robots.txt Editor — Contensio plugin.
+ * Robots.txt Editor - Contensio plugin.
  * https://contensio.com
  *
  * @copyright   Copyright (c) 2026 Iosif Gabriel Chimilevschi
@@ -31,7 +31,7 @@ class RobotsTxtController extends Controller
      */
     public function edit()
     {
-        return view('robots-txt::admin.settings', ['content' => RobotsConfig::get()]);
+        return view('contensio-robots-txt::admin.settings', ['content' => RobotsConfig::get()]);
     }
 
     /**

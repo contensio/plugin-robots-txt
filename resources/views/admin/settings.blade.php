@@ -21,7 +21,7 @@
 </div>
 @endif
 
-<form method="POST" action="{{ route('robots-txt.settings.update') }}">
+<form method="POST" action="{{ route('contensio-robots-txt.settings.update') }}">
 @csrf
 <div class="space-y-4">
     <div class="bg-white rounded-xl border border-gray-200 p-6 space-y-4">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="flex items-center justify-between">
-        <form method="POST" action="{{ route('robots-txt.settings.reset') }}" onsubmit="return confirm('Reset robots.txt to the default content?')">
+        <form method="POST" action="{{ route('contensio-robots-txt.settings.reset') }}" onsubmit="return confirm('Reset robots.txt to the default content?')">
             @csrf
             <button type="submit" class="text-sm text-gray-500 hover:text-red-600 transition-colors">
                 Reset to default

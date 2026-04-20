@@ -1,6 +1,6 @@
 {
     "name": "contensio/plugin-robots-txt",
-    "description": "Robots.txt editor plugin for Contensio — manage and serve robots.txt dynamically.",
+    "description": "Robots.txt editor plugin for Contensio - manage and serve robots.txt dynamically.",
     "type": "contensio-plugin",
     "license": "MIT",
     "require": { "php": "^8.2", "contensio/core": "^2.0" },

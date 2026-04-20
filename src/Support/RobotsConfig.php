@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Robots.txt Editor — Contensio plugin.
+ * Robots.txt Editor - Contensio plugin.
  * https://contensio.com
  *
  * @copyright   Copyright (c) 2026 Iosif Gabriel Chimilevschi

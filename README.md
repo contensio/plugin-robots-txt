@@ -1,13 +1,13 @@
 # Robots.txt Editor
 
-Manage your site's `robots.txt` from the Contensio admin. The file is served dynamically — no server configuration or file system access required.
+Manage your site's `robots.txt` from the Contensio admin. The file is served dynamically - no server configuration or file system access required.
 
 **Features:**
 - Edit robots.txt content in a code-editor–style textarea
 - Reset to a sensible default (allow all, include Sitemap URL) at any time
 - Served at `/robots.txt` with `Content-Type: text/plain`
 - Settings hub card in Admin > Settings
-- Stored in the core `settings` table — survives deployments and zero-downtime updates
+- Stored in the core `settings` table - survives deployments and zero-downtime updates
 
 ---
 
